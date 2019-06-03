@@ -47,6 +47,11 @@ class JenySpider(scrapy.Spider):
                         self.docker_images.add(dep)
 #                        self.docker_images.add(x.split()[i+1].encode("ascii"))
 #                        self.docker_images.add("\r\n")
+            if "docker push " in x: 
+                for i, y in enumerate(x.split()):
+                    if y == "push ":
+                        dep = dep + " --> " + x.split()[i+1].encode("ascii")
+                        self.docker_images.add(dep)
 
     def closed(self, reason):
         f = open("dockerimages", "w+")
