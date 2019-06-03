@@ -1,0 +1,4 @@
+response.xpath('//div[@class="tabBar"]').css('a::attr(href)').getall()
+response.xpath('//table[@id="projectstatus"]').css('a::attr(href)')
+
+table id "projectstatus"

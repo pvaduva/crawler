@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class JenySpider(scrapy.Spider):
+    name = "jeny"
+    allowed_domains = ["jenkins.onap.org"]
+    start_urls = (
+        'https://jenkins.onap.org/',
+    )
+    BASE_URL = "https://jenkins.onap.org/"
+
+    def parse(self, response):
+        links = response.xpath('//div[@class="tabBar"]').css('a::attr(href)').extract()
+        for link in links:
+            absolute_url = self.BASE_URL + link
+            yield scrapy.Request(absolute_url, callback=self.parse_tab)
+
+    def parse_tab(self, response):
+        links = response.xpath('//table[@id="projectstatus"]').css('a::attr(href)').extract()
+        for link in links:
+            absolute_url = self.BASE_URL + link
+            yield scrapy.Request(absolute_url, callback=self.parse_job)
+
+def parse_job(self, response):
+		print(response.url)

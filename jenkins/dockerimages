@@ -1,0 +1,191 @@
+anapsix/alpine-java:8_jdk --> onap/ccsdk-apps-ms-neng:latest
+onap/so/base-image:1.0 --> onap/so/vnfm-adapter:latest
+java:8 --> nexus3.onap.org:10003/onap/dmaap/datarouter-node:1.0.9-SNAPSHOT
+java:8 --> nexus3.onap.org:10003/onap/dmaap/datarouter-prov:1.0.9-SNAPSHOT
+onap/so/base-image:1.0 --> onap/so/catalog-db-adapter:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_cm:2.1.14-SNAPSHOT
+openjdk:8-jre-alpine --> nexus3.onap.org:10003/onap/sniroemulator:latest
+onap/policy-drools:1.4.0 --> onap/policy-pdpd-cl:latest --> nexus3.onap.org:10003/onap/policy-pdpd-cl:latest --> nexus3.onap.org:10003/onap/policy-pdpd-cl:1.4-STAGING-latest --> nexus3.onap.org:10003/onap/policy-pdpd-cl:1.4.2-STAGING-20190528T100401Z
+onap/base_sdc-jetty:1.2.0-SNAPSHOT-latest --> onap/dcae-fe:latest
+openjdk:8-jre-alpine --> onap/dmaap/datarouter-node:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/babel:latest
+aaionap/aai-common:1.3.0 --> nexus3.onap.org:10003/onap/aai-schema-service:latest
+anapsix/alpine-java:jre8 --> onap/pomba-sdnc-context-builder:latest
+openjdk:8-jre-alpine --> nexus3.onap.org:10003/onap/vfc/wfengine-mgrservice:latest
+python:2-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-pike:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-pike:latest
+ubuntu:16.04 --> nexus3.onap.org:10003/onap/org.onap.dcaegen2.services.mapper.vesadapter.universalvesadaptor:latest
+openjdk:8-jre-alpine --> onap/externalapi/nbi:4.0.1-20190603T014728Z
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/azure:1.2.4-SNAPSHOT
+alpine:3.9 --> nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:1.3.4-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:latest --> nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:1.3.4-STAGING
+openjdk:8-jre-alpine --> nexus3.onap.org:10003/onap/org.onap.dcaegen2.analytics.tca-gen2.dcae-analytics-tca-web:latest
+openjdk:8u191-jdk-alpine3.9 --> onap/clamp:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-20190531T014151Z
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:latest
+python:2-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-pike:1.3.5-SNAPSHOT
+aaionap/aai-common:1.3.0 --> aai-graphgraph:1.0
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/framework:1.3.4-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/framework:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/sparky-be:latest
+tomcat:9.0-jre8-alpine --> onap/vid:4.3.0
+alpine:3.6 --> nexus3.onap.org:10003/onap/tproxy-config:latest
+nexus3.onap.org:10001/onap/aaf/aaf-base-xenial:latest --> nexus3.onap.org:10003/onap/aaf/testcaservice:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/ztesdncdriver:latest
+onap/so/base-image:1.0 --> onap/so/request-db-adapter:latest
+alpine:3.7 --> nexus3.onap.org:10003/onap/aaf/smsquorumclient:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/vfc/db:latest
+library/ubuntu:latest --> onap/music/prom:latest
+aaionap/aai-common:1.3.0 --> nexus3.onap.org:10003/onap/aai-traversal:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/vio-vesagent:1.0.0-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/vio-vesagent:latest --> nexus3.onap.org:10003/onap/multicloud/vio-vesagent:1.0.0-STAGING
+nexus3.onap.org:10001/openjdk:8-jre-alpine --> onap/aaf/aaf_base:2.1.14-SNAPSHOT
+openjdk:8 --> onap/music/music_sb:latest
+onap/policy-base-alpine --> onap/policy-common-alpine:latest
+python:2.7-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:1.3.5-SNAPSHOT
+alpine:3.9 --> nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:1.3.4-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/rproxy:latest
+ubuntu:18.04 --> nexus3.onap.org:10003/onap/multicloud/k8s:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/search-data-service:latest
+onap/policy-common-alpine:1.4.0 --> onap/policy-distribution:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/vfc/vnflcm:latest
+openjdk:8-jre --> nexus3.onap.org:10003/onap/org.onap.dcaegen2.platform.inventory-api:latest
+anapsix/alpine-java --> onap/dmaap/kafka111:latest
+anapsix/alpine-java:8_jdk --> onap/ccsdk-controllerblueprints:latest
+onap/base_sdc-jetty:1.2.0-SNAPSHOT-latest --> onap/dcae-tools:latest
+openjdk:8-jre-alpine --> onap/dmaap/datarouter-prov:latest
+alpine:3.7 --> nexus3.onap.org:10003/onap/music/distributed-kv-store:latest
+onap/so/base-image:1.0 --> onap/so/vnfm-simulator:latest
+openjdk:8-alpine --> onap/policy-base-alpine:latest
+openjdk:8-jre-slim --> onap/cli:latest
+openjdk:8u121-jre-alpine --> nexus3.onap.org:10003/onap/vfc/wfengine-activiti:latest
+onap/ccsdk-odlsli-image:0.3.3 --> onap/sdnc-image:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_fs:2.1.14-SNAPSHOT
+onap/policy-common-alpine:1.4.0 --> onap/policy-pap:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/emsdriver:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/jujudriver:latest
+onap/ccsdk-odl-fluorine-alpine-image:0.4.4-STAGING-latest --> onap/ccsdk-odlsli-alpine-image:latest
+openjdk:8-jdk-alpine --> onap/so/base-image:1.0
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/champ:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/vio-vesagent:1.0.0-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/vio-vesagent:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-windriver:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-windriver:latest
+python:2-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-pike:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-pike:latest --> nexus3.onap.org:10003/onap/multicloud/openstack-pike:1.3.5-STAGING
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/spike:latest
+onap/policy-drools:1.4.0 --> onap/policy-pdpd-cl:latest
+ubuntu:16.04 --> onap/optf-cmso-topology:latest
+omahoco1/alpine-java-python --> onap/ccsdk-blueprintsprocessor:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-20190531T094017Z
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/vio:1.3.2-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/vio:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:latest --> nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:1.3.5-STAGING
+ubuntu:16.04 --> onap/optf-cmso-service:latest
+python:2-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-ocata:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-ocata:latest
+onap/ccsdk-odlsli-alpine-image:0.5.0-STAGING-latest --> onap/sdnc-image:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:latest --> nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:1.3.5-STAGING
+centos:7 --> nexus3.onap.org:10003/onap/vfc/resmanagement:latest
+aaionap/aai-common:1.3.0 --> nexus3.onap.org:10003/openecomp/aai-cacher:latest
+alpine:3.6 --> nexus3.onap.org:10003/onap/gallifrey:latest
+ubuntu:16.04 --> nexus3.onap.org:10003/onap/optf-osdf:latest
+nexus3.onap.org:10003/onap/aaf/aaf_base:2.1.14-SNAPSHOT --> onap/aaf/aaf_agent:2.1.14-SNAPSHOT
+python:2-alpine --> nexus3.onap.org:10003/onap/vfc/gvnfmdriver:latest
+onap/so/base-image:1.0 --> onap/so/openstack-adapter:latest
+library/cassandra:3.11 --> onap/music/cassandra_job:latest
+onap/so/base-image:1.0 --> onap/so/sdc-controller:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/vio:1.3.2-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/vio:latest --> nexus3.onap.org:10003/onap/multicloud/vio:1.3.2-STAGING
+alpine:3.9 --> nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:1.3.4-SNAPSHOT
+onap/so/base-image:1.0 --> onap/so/bpmn-infra:latest
+docker.io/openjdk:11-jre-slim --> onap/org.onap.dcaegen2.collectors.hv-ves.hv-collector-dcae-app-simulator:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_locate:2.1.14-SNAPSHOT
+docker.elastic.co/kibana/kibana-oss:6.6.2 --> onap/clamp-dashboard-kibana:latest
+python:2.7.15-alpine --> nexus3.onap.org:10003/onap/optf-has:latest
+python:3.5-alpine --> onap/dcae-tosca-app:latest
+python:2.7-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:latest --> nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:1.3.5-STAGING
+onap/policy-drools:1.4.0 --> onap/policy-pdpd-cl:latest --> nexus3.onap.org:10003/onap/policy-pdpd-cl:latest
+ubuntu:16.04 --> onap/optf-cmso-dbinit:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-20190531T014151Z --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-latest
+nexus3.onap.org:10001/onap/aaf/aaf-base-xenial:latest --> nexus3.onap.org:10003/onap/aaf/distcenter:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/vfc/catalog:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/data-router:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/framework:1.3.4-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/framework:latest --> nexus3.onap.org:10003/onap/multicloud/framework:1.3.4-STAGING
+onap/so/base-image:1.0 --> onap/so/so-monitoring:latest
+onap/ccsdk-odl-fluorine-ubuntu-image:0.4.4-STAGING-latest --> onap/ccsdk-odlsli-image:latest
+java:8 --> nexus3.onap.org:10003/onap/dmaap/datarouter-subscriber:1.0.9-SNAPSHOT
+onap/ccsdk-odl-oxygen-image:0.3.4-STAGING-latest --> onap/ccsdk-odlsli-image:latest
+anapsix/alpine-java:jre8 --> onap/pomba-aai-context-builder:latest
+onap/ccsdk-odlsli-alpine-image:0.4.4-STAGING-latest --> onap/sdnc-aaf-image:latest
+anapsix/alpine-java:jre8 --> onap/pomba-network-discovery-context-builder:latest
+openjdk:8-jre-alpine --> nexus3.onap.org:10003/onap/pnf-simulator:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_oauth:2.1.14-SNAPSHOT
+nexus3.onap.org:10003/onap/aaf/aaf_base:2.1.14-SNAPSHOT --> onap/aaf/aaf_core:2.1.14-SNAPSHOT
+openjdk:8-jre-alpine --> onap/dmaap/datarouter-subscriber:latest
+onap/ccsdk-odl-fluorine-alpine-image:0.5.0-STAGING-latest --> onap/ccsdk-odlsli-alpine-image:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/fproxy:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/gizmo:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/modeling/genericparser:latest
+docker.elastic.co/elasticsearch/elasticsearch:6.1.2 --> nexus3.onap.org:10003/onap/elasticsearch-sg:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_gui:2.1.14-SNAPSHOT
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/vio:1.3.2-SNAPSHOT
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-windriver:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-windriver:latest --> nexus3.onap.org:10003/onap/multicloud/openstack-windriver:1.3.5-STAGING
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/vio-vesagent:1.0.0-SNAPSHOT
+python:2-alpine --> nexus3.onap.org:10003/onap/vfc/vnfres:latest
+docker.elastic.co/logstash/logstash-oss:6.6.2 --> onap/clamp-dashboard-logstash:latest
+alpine:3.8 --> onap/ccsdk-ansible-server-image:latest
+openjdk:8u171-jre-alpine --> nexus3.onap.org:10003/onap/org.onap.dcaegen2.services.pm-mapper:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/framework:1.3.4-SNAPSHOT
+docker.io/openjdk:11-jre-slim --> onap/org.onap.dcaegen2.collectors.hv-ves.hv-collector-xnf-simulator:latest
+node:10-slim --> onap/ccsdk-cds-ui-server:latest
+onap/ccsdk-odlsli-alpine-image:0.5.0-STAGING-latest --> onap/sdnc-aaf-image:latest
+onap/so/base-image:1.0 --> onap/so/sdnc-adapter:latest
+busybox:latest --> onap/ccsdk-cds-ui:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/vfc/nslcm:latest
+onap/base_sdc-sanity:1.3.1 --> onap/dcae-ci-tests:latest
+onap/ccsdk-odl-fluorine-ubuntu-image:0.5.0-STAGING-latest --> onap/ccsdk-odlsli-image:latest
+openjdk:8-jre-alpine --> onap/externalapi/nbi:3.0.1-20181218T104129Z
+onap/policy-common-alpine:1.4.0 --> onap/policy-xacml-pdp:latest
+onap/base_sdc-jetty:1.2.0-SNAPSHOT-latest --> onap/dcae-dt:latest
+alpine:3.7 --> nexus3.onap.org:10003/onap/aaf/sms:latest
+nexus3.onap.org:10001/onap/aaf/aaf-base-xenial:latest --> nexus3.onap.org:10003/onap/aaf/abrmd:latest
+anapsix/alpine-java:jre8 --> onap/pomba-sdc-context-builder:latest
+python:2.7-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_hello:2.1.14-SNAPSHOT
+onap/policy-drools:1.4.0 --> onap/policy-pdpd-cl:latest --> nexus3.onap.org:10003/onap/policy-pdpd-cl:latest --> nexus3.onap.org:10003/onap/policy-pdpd-cl:1.4-STAGING-latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/azure:1.2.4-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/azure:latest --> nexus3.onap.org:10003/onap/multicloud/azure:1.2.4-STAGING
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:1.3.5-SNAPSHOT
+onap/base_sdc-jetty:1.2.0-SNAPSHOT-latest --> onap/dcae-be:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-20190531T094017Z --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/azure:1.2.4-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/azure:latest
+nexus3.onap.org:10003/onap/aaf/aaf_core:2.1.14-SNAPSHOT --> onap/aaf/aaf_service:2.1.14-SNAPSHOT
+onap/so/base-image:1.0 --> onap/so/vfc-adapter:latest
+onap/so/base-image:1.0 --> onap/so/api-handler-infra:latest
+library/cassandra:3.11 --> onap/music/cassandra_3_11:latest
+tomcat:8 --> onap/org.onap.ccsdk.dashboard.ccsdk-app-os:latest
+onap/ccsdk-odlsli-alpine-image:0.4.4-STAGING-latest --> onap/sdnc-image:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-windriver:1.3.5-SNAPSHOT
+ubuntu --> onap/testsuite:latest
+ --> onap/aaf/aaf_cass:2.1.14-SNAPSHOT
+ubuntu:16.04 --> onap/optf-cmso-ticketmgt:latest
+anapsix/alpine-java:jre8 --> onap/pomba-context-aggregator:latest
+anapsix/alpine-java:jre8 --> onap/service-decomposition:latest
+aaionap/aai-common:1.3.0 --> nexus3.onap.org:10003/onap/aai-graphadmin:latest
+onap/policy-common-alpine:1.4.0 --> onap/policy-api:latest
+nexus3.onap.org:10003/onap/aaf/aaf_base:2.1.14-SNAPSHOT --> onap/aaf/aaf_config:2.1.14-SNAPSHOT
+java:8-jre --> nexus3.onap.org:10003/onap/org.onap.dcaegen2.platform.servicechange-handler:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/validation:latest
+python:3.6-slim --> onap/ccsdk-commandexecutor:latest
+centos:7 --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-STAGING-20190603T034358Z
+centos:7 --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-STAGING-20190603T034358Z --> nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-STAGING-latest
+aaionap/aai-common:1.3.0 --> nexus3.onap.org:10003/onap/aai-resources:latest
+ubuntu:16.04 --> onap/optf-cmso-robot:latest
+ubuntu:14.04 --> nexus3.onap.org:10003/onap/model-loader:latest
+ubuntu:16.04 --> onap/vnfsdk/vnftest:latest
+postgres:9.4 --> onap/vnfsdk/refrepo/postgres:latest
+ubuntu:16.04 --> onap/vnfsdk/refrepo:latest
+ubuntu:16.04 --> onap/dmaap/zookeeper:latest
+alpine:3.6 --> nexus3.onap.org:10003/onap/chameleon:latest
+anapsix/alpine-java:jre8 --> onap/network-discovery:latest
+openjdk:8-jdk-alpine --> onap/ccsdk-sdclistener:latest
+python:2-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-ocata:1.3.5-SNAPSHOT
+ubuntu:xenial --> nexus3.onap.org:10003/onap/aaf/aaf-base-xenial:latest
+ubuntu:16.04 --> onap/optf-cmso-optimizer:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:1.3.5-SNAPSHOT
+docker.io/openjdk:8-jdk-alpine --> onap/so/base-image:1.0
+docker.io/openjdk:11-jre-slim --> onap/org.onap.dcaegen2.collectors.hv-ves.hv-collector-main:latest
+python:2-slim --> nexus3.onap.org:10003/onap/multicloud/openstack-ocata:1.3.5-SNAPSHOT --> nexus3.onap.org:10003/onap/multicloud/openstack-ocata:latest --> nexus3.onap.org:10003/onap/multicloud/openstack-ocata:1.3.5-STAGING
+centos:7 --> nexus3.onap.org:10003/onap/vfc/multivimproxy:latest
+python:2-alpine --> nexus3.onap.org:10003/onap/vfc/vnfmgr:latest

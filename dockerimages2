@@ -1,0 +1,183 @@
+Successfully tagged nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-STAGING-latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/so-monitoring:latest
+[INFO] DOCKER&gt; Successfully tagged onap/optf-cmso-robot:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-pike:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-20190531T094017Z
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/sdc-controller:latest
+[INFO] DOCKER&gt; Successfully tagged onap/policy-xacml-pdp:latest
+Successfully tagged onap/vnfsdk/refrepo:latest
+Successfully tagged nexus3.onap.org:10003/onap/policy-pdpd-cl:1.4.2-STAGING-20190528T100401Z
+[INFO] DOCKER&gt; Successfully tagged onap/org.onap.ccsdk.dashboard.ccsdk-app-os:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-windriver:1.3.5-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/pomba-network-discovery-context-builder:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-ansible-server-image:latest
+Successfully tagged nexus3.onap.org:10003/onap/sniroemulator:latest
+[INFO] DOCKER&gt; Successfully tagged nexus3.onap.org:10003/onap/aai-resources:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/nslcm:latest
+[INFO] DOCKER&gt; Successfully tagged onap/music/cassandra_3_11:latest
+Successfully tagged nexus3.onap.org:10003/onap/org.onap.dcaegen2.platform.inventory-api:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/bpmn-infra:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-ocata:1.3.5-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged nexus3.onap.org:10003/onap/aai-schema-service:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/vnfres:latest
+Successfully tagged nexus3.onap.org:10003/onap/aaf/testcaservice:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/catalog:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-odlsli-image:latest
+Successfully tagged onap/aaf/aaf_locate:2.1.14-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-ocata:1.3.5-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/vnfsdk/refrepo/postgres:latest
+[INFO] DOCKER&gt; Successfully tagged nexus3.onap.org:10003/openecomp/aai-cacher:latest
+Successfully tagged nexus3.onap.org:10003/onap/aaf/aaf-base-xenial:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-windriver:1.3.5-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/optf-cmso-dbinit:latest
+Successfully tagged onap/cli:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/framework:1.3.4-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/dmaap/datarouter-prov:1.0.9-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/spike:latest
+Successfully tagged nexus3.onap.org:10003/onap/aaf/abrmd:latest
+[INFO] DOCKER&gt; Successfully tagged onap/service-decomposition:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dcae-fe:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-blueprintsprocessor:latest
+Successfully tagged nexus3.onap.org:10003/onap/org.onap.dcaegen2.platform.servicechange-handler:latest
+[INFO] DOCKER&gt; Successfully tagged onap/pomba-context-aggregator:latest
+Successfully tagged nexus3.onap.org:10003/onap/gizmo:latest
+Successfully tagged nexus3.onap.org:10003/onap/aaf/distcenter:latest
+[INFO] DOCKER&gt; Successfully tagged onap/org.onap.dcaegen2.collectors.hv-ves.hv-collector-main:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:1.3.5-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/dmaap/datarouter-prov:latest
+[INFO] DOCKER&gt; Successfully tagged onap/network-discovery:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/vio:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/wfengine-activiti:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-cds-ui:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/resmanagement:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/wfengine-mgrservice:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dcae-tools:latest
+[INFO] DOCKER&gt; Successfully tagged onap/pomba-sdnc-context-builder:latest
+Successfully tagged nexus3.onap.org:10003/onap/champ:latest
+Successfully tagged onap/aaf/aaf_gui:2.1.14-SNAPSHOT
+[INFO] Successfully tagged nexus3.onap.org:10003/onap/gallifrey:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/multivimproxy:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/vnfm-simulator:latest
+[INFO] Successfully tagged nexus3.onap.org:10003/onap/chameleon:latest
+Successfully tagged onap/aaf/aaf_fs:2.1.14-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/policy-distribution:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:1.3.5-STAGING
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/azure:latest
+Successfully tagged nexus3.onap.org:10003/onap/optf-osdf:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/catalog-db-adapter:latest
+Successfully tagged nexus3.onap.org:10003/onap/org.onap.dcaegen2.services.mapper.vesadapter.universalvesadaptor:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-ocata:latest
+[INFO] DOCKER&gt; Successfully tagged onap/pomba-aai-context-builder:latest
+Successfully tagged onap/aaf/aaf_service:2.1.14-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/aaf/smsquorumclient:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:1.3.5-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-latest
+Successfully tagged onap/aaf/aaf_agent:2.1.14-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/optf-cmso-service:latest
+Successfully tagged onap/dmaap/kafka111:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/vio-vesagent:latest
+[INFO] DOCKER&gt; Successfully tagged nexus3.onap.org:10003/onap/aai-traversal:latest
+[INFO] DOCKER&gt; Successfully tagged onap/vid:4.3.0
+Successfully tagged nexus3.onap.org:10003/onap/fproxy:latest
+Successfully tagged nexus3.onap.org:10003/onap/validation:latest
+[INFO] DOCKER&gt; Successfully tagged onap/externalapi/nbi:4.0.1-20190602T014710Z
+Successfully tagged nexus3.onap.org:10003/onap/vfc/gvnfmdriver:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:latest
+[INFO] DOCKER&gt; Successfully tagged onap/org.onap.dcaegen2.collectors.hv-ves.hv-collector-dcae-app-simulator:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dmaap/datarouter-node:latest
+[INFO] DOCKER&gt; Successfully tagged onap/clamp:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/api-handler-infra:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-STAGING-20190602T034446Z
+[INFO] DOCKER&gt; Successfully tagged onap/optf-cmso-ticketmgt:latest
+Successfully tagged nexus3.onap.org:10003/onap/policy-pdpd-cl:1.4-STAGING-latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/db:latest
+Successfully tagged nexus3.onap.org:10003/onap/dmaap/datarouter-node:1.0.9-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/tproxy-config:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-pike:1.3.5-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/music/cassandra_job:latest
+Successfully tagged nexus3.onap.org:10003/onap/music/distributed-kv-store:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-windriver:latest
+Successfully tagged nexus3.onap.org:10003/onap/search-data-service:latest
+Successfully tagged onap/dmaap/zookeeper:latest
+Successfully tagged nexus3.onap.org:10003/onap/modeling/genericparser:latest
+Successfully tagged nexus3.onap.org:10003/onap/elasticsearch-sg:latest
+Successfully tagged nexus3.onap.org:10003/onap/babel:latest
+Successfully tagged nexus3.onap.org:10003/onap/aaf/sms:latest
+Successfully tagged onap/testsuite:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/vio:1.3.2-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/clamp-dashboard-logstash:latest
+Successfully tagged onap/aaf/aaf_oauth:2.1.14-SNAPSHOT
+Successfully tagged onap/policy-pdpd-cl:latest
+[INFO] DOCKER&gt; Successfully tagged onap/optf-cmso-topology:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/vnfmgr:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/vnflcm:latest
+[INFO] DOCKER&gt; Successfully tagged onap/policy-common-alpine:latest
+[INFO] F8: Successfully tagged aai-graphgraph:1.0
+Successfully tagged onap/aaf/aaf_cm:2.1.14-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/sdnc-aaf-image:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/vio-vesagent:1.0.0-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/sdnc-image:latest
+[INFO] DOCKER&gt; Successfully tagged onap/policy-api:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-lenovo:1.3.5-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/vfc/emsdriver:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-pike:1.3.5-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-cds-ui-server:latest
+Successfully tagged onap/aaf/aaf_hello:2.1.14-SNAPSHOT
+Successfully tagged onap/aaf/aaf_core:2.1.14-SNAPSHOT
+[INFO] Successfully tagged nexus3.onap.org:10003/onap/org.onap.dcaegen2.analytics.tca-gen2.dcae-analytics-tca-web:latest
+Successfully tagged nexus3.onap.org:10003/onap/rproxy:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/nfvo/svnfm/nokiav2:1.3.2-SNAPSHOT-20190531T014151Z
+[INFO] DOCKER&gt; Successfully tagged onap/so/base-image:1.0
+[INFO] DOCKER&gt; Successfully tagged onap/dcae-tosca-app:latest
+[INFO] DOCKER&gt; Successfully tagged onap/policy-base-alpine:latest
+[INFO] DOCKER&gt; Successfully tagged onap/vnfsdk/vnftest:latest
+Successfully tagged nexus3.onap.org:10003/onap/dmaap/datarouter-subscriber:1.0.9-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/vio-vesagent:1.0.0-STAGING
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/azure:1.2.4-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/pnf-simulator:latest
+[INFO] DOCKER&gt; Successfully tagged onap/optf-cmso-optimizer:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-odlsli-alpine-image:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:1.3.4-SNAPSHOT
+Successfully tagged onap/aaf/aaf_cass:2.1.14-SNAPSHOT
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-controllerblueprints:latest
+Successfully tagged nexus3.onap.org:10003/onap/sparky-be:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/framework-artifactbroker:1.3.4-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/so/sdnc-adapter:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/openstack-adapter:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dcae-ci-tests:latest
+Successfully tagged nexus3.onap.org:10003/onap/vfc/jujudriver:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/k8s:latest
+[INFO] DOCKER&gt; Successfully tagged onap/org.onap.dcaegen2.collectors.hv-ves.hv-collector-xnf-simulator:latest
+[INFO] DOCKER&gt; Successfully tagged onap/policy-pap:latest
+Successfully tagged nexus3.onap.org:10003/onap/data-router:latest
+[INFO] DOCKER&gt; Successfully tagged nexus3.onap.org:10003/onap/aai-graphadmin:latest
+[INFO] DOCKER&gt; Successfully tagged onap/externalapi/nbi:3.0.1-20181218T104129Z
+[INFO] DOCKER&gt; Successfully tagged onap/pomba-sdc-context-builder:latest
+Successfully tagged nexus3.onap.org:10003/onap/policy-pdpd-cl:latest
+[INFO] DOCKER&gt; Successfully tagged onap/so/request-db-adapter:latest
+Successfully tagged onap/aaf/aaf_base:2.1.14-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-starlingx:1.3.5-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-sdclistener:latest
+Successfully tagged nexus3.onap.org:10003/onap/model-loader:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dcae-dt:latest
+Successfully tagged nexus3.onap.org:10003/onap/optf-has:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/framework:1.3.4-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/so/vfc-adapter:latest
+[INFO] DOCKER&gt; Successfully tagged onap/clamp-dashboard-kibana:latest
+[INFO] DOCKER&gt; Successfully tagged onap/music/music_sb:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dmaap/datarouter-subscriber:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/vio:1.3.2-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/vfc/ztesdncdriver:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-apps-ms-neng:latest
+[INFO] Successfully tagged nexus3.onap.org:10003/onap/org.onap.dcaegen2.services.pm-mapper:latest
+[INFO] DOCKER&gt; Successfully tagged onap/music/prom:latest
+[INFO] DOCKER&gt; Successfully tagged onap/ccsdk-commandexecutor:latest
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/openstack-fcaps:1.3.5-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/azure:1.2.4-STAGING
+[INFO] DOCKER&gt; Successfully tagged onap/so/vnfm-adapter:latest
+Successfully tagged onap/aaf/aaf_config:2.1.14-SNAPSHOT
+Successfully tagged nexus3.onap.org:10003/onap/multicloud/framework:latest
+[INFO] DOCKER&gt; Successfully tagged onap/dcae-be:latest
