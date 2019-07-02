@@ -29,7 +29,6 @@ class JenySpider(scrapy.Spider):
 
     def parse_job(self, response):
         strArr = response.body
-        print(response.url)
         filename = response.url.split('job/' ,1)[1]
         dep = ""
         self.arrLines = strArr.splitlines()
@@ -46,12 +45,10 @@ class JenySpider(scrapy.Spider):
                         dep = dep +" --> " + x.split()[i+1].encode("ascii")
                         self.docker_images.add(re.sub("nexus3.onap.org:1000\d\/", "", dep))
                         dock_set.add(re.sub("nexus3.onap.org:1000\d\/", "", dep))
-                        print(dep)
             elif all(z in x for z in ['Downloaded', 'newer', 'image', 'for']):
                 for i, y in enumerate(x.split()):
                     if y == 'for':
                         dep = x.split()[i+1].encode("ascii")
-                        print(dep)
             elif all(z in x for z in ['DOCKER>', 'Pushed']):
                 locked = True
                 for i, y in enumerate(x.split()):
@@ -59,7 +56,6 @@ class JenySpider(scrapy.Spider):
                         dep = dep +" --> " + x.split()[i+1].encode("ascii")
                         self.docker_images.add(re.sub("nexus3.onap.org:1000\d\/", "", dep))
                         dock_set.add(re.sub("nexus3.onap.org:1000\d\/", "", dep))
-                        print(dep)
             elif all(z in x for z in ['REPOSITORY', 'TAG', 'IMAGE ID', 'CREATED', 'SIZE']) and not locked:
                self.indexArr  = j + 1
                self.parse_docker(filename, dock_set)
@@ -76,7 +72,6 @@ class JenySpider(scrapy.Spider):
             else:
                 self.docker_images.add(re.sub("nexus3.onap.org:1000\d\/", "", dep))
                 dock_set.add(re.sub("nexus3.onap.org:1000\d\/", "", dep))
-                print(dep)
                 return
 
     def closed(self, reason):
@@ -90,7 +85,6 @@ class JenySpider(scrapy.Spider):
         keysSet = Set()
         for l in lineArr:
             line = l.split()
-            print(line[2])
             if line[2].startswith("onap"):
                 startPos = 5
             else:
@@ -116,15 +110,11 @@ class JenySpider(scrapy.Spider):
         f = open("graphs", "w+")
         for k in projects.keys():
             f.write(k)
-            print(k)
             for p in projects[k]:
                 line = p.split()
                 counter+=1
-                print("{0}".format(counter) + ' ' + p)
                 f.write('\n')
                 f.write("{0}".format(counter) + ' ' + p)
-            print("\n")
-            print("\n")
             f.write('\n')
             f.write('\n')
         f.close()
