@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import sys
+import os
+import errno
 import re
 from sets import Set
+from collections import defaultdict
 
 
 class JenySpider(scrapy.Spider):
@@ -15,6 +18,7 @@ class JenySpider(scrapy.Spider):
         'https://jenkins.onap.org//view/docker/',
     )
     BASE_URL = "https://jenkins.onap.org/"
+    dock_dict = defaultdict()
 
     def parse(self, response):
         links = response.xpath('//table[@id="projectstatus"]').css('a::attr(href)').extract()
@@ -25,6 +29,14 @@ class JenySpider(scrapy.Spider):
 
     def parse_job(self, response):
         strArr = response.body
+        try:
+            os.makedirs(os.path.dirname("jobs/" + response.url[response.url.index('job') + 4:response.url.index('/', response.url.index('job') + 4)]))
+        except OSError as exc: # Guard against race condition
+            if exc.errno != errno.EEXIST:
+                raise
+        with open("jobs/" + response.url[response.url.index('job') + 4:response.url.index('/', response.url.index('job') + 4)], "w") as f:
+            f.write(strArr)
+        return
         dep = ""
         self.arrLines = strArr.splitlines()
         for j, x in enumerate(self.arrLines):
@@ -44,7 +56,7 @@ class JenySpider(scrapy.Spider):
     def parse_docker(self):
         dep = ''
         for x in self.arrLines[self.indexArr:]:
-            if 'Pushing' not in x and all(w in x for w in ['for', 'tag', 'int']):
+            if 'Pushing' not in x:
                 print(x)
                 dep = x.split()[0] + ' --> ' + dep
             else:
